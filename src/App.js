@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Header/Navbar";
+import { ItemListContainer } from "./components/Header/ItemListContainer/ItemListContainer";
+import { CartWidget } from "./components/Header/CartWidget/CartWidget";
 
-function App() {
+const App = () => {
+  const diasIn = '365'
+  const horas = '23'
+  const minutos = '59'
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar>
+      <CartWidget/>
+      </Navbar>
+      <ItemListContainer dias={diasIn} hS ={horas} mN={minutos} />
+    </>
   );
-}
+};
 
 export default App;
