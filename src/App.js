@@ -12,7 +12,7 @@ const App = () => {
       <Navbar>
       <CartWidget/>
       </Navbar>
-      <ItemListContainer dias={diasIn} hS ={horas} mN={minutos} />
+      <ItemListContainer greeting={diasIn} hS ={horas} mN={minutos} />
     </>
   );
 };
