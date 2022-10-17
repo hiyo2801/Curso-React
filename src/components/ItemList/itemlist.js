@@ -13,12 +13,12 @@ const ItemList = ({ products }) => {
 
 const styles = {
     container:{
-      display: "flex",
-      flexDirection: "row",
-      justifyContent: "space-around",
-      alignItems: "center",
-      flexWrap: "wrap",
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-around",
+    alignItems: "center",
+    flexWrap: "wrap",
     }
-  }
+}
 
 export default ItemList
