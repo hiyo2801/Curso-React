@@ -1,20 +1,29 @@
 import React from "react";
-import Navbar from "./components/Header/Navbar";
-import { ItemListContainer } from "./components/Header/ItemListContainer/ItemListContainer";
-import { CartWidget } from "./components/Header/CartWidget/CartWidget";
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
+import { ItemDetailContainer } from "./components/itemDetailContainer/ItemDetailContainer";
+import { Cart } from "./components/CartView/Cart";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
-  const diasIn = '365'
-  const horas = '23'
-  const minutos = '59'
+  const mensaje = "Las mejores ofertas";
+
   return (
     <>
-      <Navbar>
-      <CartWidget/>
-      </Navbar>
-      <ItemListContainer greeting={diasIn} hS ={horas} mN={minutos} />
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<ItemListContainer greeting={mensaje} />}/>
+          <Route path="/categoria/:id" element={<ItemListContainer greeting={mensaje} />}/>
+          <Route path="/producto/:id" element={<ItemDetailContainer />}/>
+          <Route path="/cart" element={<Cart />}/>
+          <Route path="*" element={<ItemListContainer />}/>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 };
 
 export default App;
+
