@@ -1,0 +1,54 @@
+.table-container {
+    overflow-x: auto;
+    width: 100%;
+
+    table.table-orders {
+        width: 100%;
+        thead tr th {
+            text-align: center;
+            border-bottom: 1px solid $dark-color-lighten;
+            &:nth-child(1) {
+                text-align: left;
+            }
+        }
+
+        tbody tr td {
+            text-align: center;
+
+            &:nth-child(1) {
+                text-align: left;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+
+                img {
+                    width: 50px;
+                    margin-right: 5px;
+                }
+            }
+
+        }
+
+        tfoot {
+            tr {
+                td {
+                    //border-top: 1px solid $dark-color-lighten;
+                    font-size: $normal-font-size;
+                    font-weight: $font-bold;
+                    padding-top: 24px;
+                    color: $dark-color;
+                }
+            }
+
+        }
+    }
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-danger {
+    color: $danger-color;
+}
