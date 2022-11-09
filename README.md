@@ -1,4 +1,4 @@
-# MayDay - Ecoomerce
+# MayDay - Ecommerce
 MayDay es un proyecto ecommerce de una tienda ficticia de venta de artículos de tatuaje para el curso [ReactJS] de Coderhouse.
 
 ## :nut_and_bolt: Tecnologias
