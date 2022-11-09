@@ -34,13 +34,13 @@ Categorías de produtos a vender
 
 **products**
 ```javascript
-Lista de productos que se comeecializarán
+Lista de productos que se comercializarán
 ```
 
 **orders**
 ```javascript
-Colección donde se geristrrán los datos de cada compra realizada, se incluyen
-    * Datos del compradoor
+Colección donde se registrarán los datos de cada compra realizada, se incluyen
+    * Datos del comprador
     * Detalles de la compra
 ```
 
