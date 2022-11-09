@@ -1,5 +1,6 @@
 # MayDay - Ecommerce
 MayDay es un proyecto ecommerce de una tienda ficticia de venta de artículos de tatuaje para el curso [ReactJS] de Coderhouse.
+[![image cover](/public/site.jpg)](https://mayday-ecommerce.netlify.app/)
 
 ## :nut_and_bolt: Tecnologias
 Para modificar este proyecto es necesario saber las tecnologias basicas de la web `html`, `css` y `javascript`. Adicional a esto, la aplicación fue construida usando las siguientes tecnologias:
