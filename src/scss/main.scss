@@ -28,7 +28,6 @@ body {
     color: $dark-color;
     line-height: 1.6;
     background-color: rgba(28, 25, 25, 0.221);
-    border-radius: 20;
 }
 
 h1, h2, h3, p, ul {
@@ -49,7 +48,6 @@ img {
 /* CLASS CSS */
 .section {
     padding: 5rem 0 2rem;
-    
     .section-title {
         position: relative;
         font-size: $big-font-size;
@@ -88,10 +86,9 @@ img {
     body {
         margin: 0;
     }
-    
+
     .section {
         padding: 7rem 0;
-        
         .section-title::after {
             width: 76px;
         }
