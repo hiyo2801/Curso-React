@@ -36,8 +36,6 @@ const Footer = ({ menuLinks }) => {
                 <div className="footer__box ">
                     <a href="https://instagram.com/maydays.ink?igshid=YmMyMTA2M2Y=" className="footer__social"><i className='bx bxl-facebook'></i></a>
                     <a href="https://instagram.com/maydays.ink?igshid=YmMyMTA2M2Y=" className="footer__social"><i className='bx bxl-instagram'></i></a>
-                    <a href="/" className="footer__social"><i className='bx bxl-twitter'></i></a>
-                    <a href="/" className="footer__social"><i className='bx bxl-google'></i></a>
                 </div>
             </div>
 
